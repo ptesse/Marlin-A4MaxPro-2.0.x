@@ -483,9 +483,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // A4MaxPro
-  #define DEFAULT_Kp 18.53
-  #define DEFAULT_Ki 1.27
-  #define DEFAULT_Kd 67.55
+  #define DEFAULT_Kp 16.50
+  #define DEFAULT_Ki 1.08
+  #define DEFAULT_Kd 63.19
 
   // Ultimaker
   // #define DEFAULT_Kp 22.2
@@ -538,9 +538,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Anycubic 4Max Pro Ultrabase (0.9Ω @ 22°C)
-  #define DEFAULT_bedKp 100.68
-  #define DEFAULT_bedKi 17.07
-  #define DEFAULT_bedKd 395.86
+  #define DEFAULT_bedKp 100.62
+  #define DEFAULT_bedKi 16.60
+  #define DEFAULT_bedKd 406.67
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -1761,7 +1761,7 @@
 
 // Play a (non-earpiercing) startup chime on startup/serial connection
 // of the Trigorilla board
-#define STARTUP_CHIME
+//#define STARTUP_CHIME
 
 //
 // ENDSTOP BEEP
